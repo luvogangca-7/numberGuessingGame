@@ -9,7 +9,7 @@
             {
                 int maximum = 0;
                 Console.WriteLine("What Difficulty would you like? (E), (M), (H)");
-                string difficulty = Console.ReadLine();
+                string difficulty = Console.ReadLine().ToUpper();
 
                 if (difficulty == "E")
                 {
