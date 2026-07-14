@@ -4,7 +4,11 @@ using System.Text;
 
 namespace NumberGuessingGame
 {
-    internal class GuessResult
+    internal enum GuessResult
     {
+        TooHigh,
+        TooLow,
+        Correct,
+        OutOfLimits
     }
 }
